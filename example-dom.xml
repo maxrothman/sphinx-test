@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<document source="/Users/max/sphinx-test/docs/test.rst">
+  <section ids="module-test test-module" names="test\ module">
+    <title>test module</title>
+    <index entries="('single',\ u'test\ (module)',\ u'module-test',\ '')"/>
+    <paragraph>This is a test module</paragraph>
+    <index entries="('single',\ u'ObjectThing\ (class\ in\ test)',\ u'test.ObjectThing',\ '')"/>
+    <desc desctype="class" domain="py" noindex="False" objtype="class">
+      <desc_signature class="" first="False" fullname="ObjectThing" ids="test.ObjectThing" module="test" names="test.ObjectThing">
+        <desc_annotation>class </desc_annotation>
+        <desc_addname>test.</desc_addname>
+        <desc_name>ObjectThing</desc_name>
+      </desc_signature>
+      <desc_content>
+        <paragraph>
+          Bases:
+          <pending_xref py:class="ObjectThing" py:module="test" refdoc="test" refdomain="py" refexplicit="False" reftarget="object" reftype="class" refwarn="False">
+            <literal classes="xref py py-class">object</literal>
+          </pending_xref>
+        </paragraph>
+        <paragraph>This is a class thing.</paragraph>
+        <note>
+          <paragraph>Things do stuff</paragraph>
+        </note>
+        <index entries="('single',\ u'thing_doer()\ (test.ObjectThing\ method)',\ u'test.ObjectThing.thing_doer',\ '')"/>
+        <desc desctype="method" domain="py" noindex="False" objtype="method">
+          <desc_signature class="ObjectThing" first="False" fullname="ObjectThing.thing_doer" ids="test.ObjectThing.thing_doer" module="test" names="test.ObjectThing.thing_doer">
+            <desc_name>thing_doer</desc_name>
+            <desc_parameterlist>
+              <desc_parameter>foo</desc_parameter>
+            </desc_parameterlist>
+          </desc_signature>
+          <desc_content>
+            <paragraph>Does some stuff</paragraph>
+            <field_list>
+              <field>
+                <field_name>Parameters</field_name>
+                <field_body>
+                  <paragraph>
+                    <literal_strong refspecific="True">foo</literal_strong>
+                     --
+                    a foo
+                  </paragraph>
+                </field_body>
+              </field>
+            </field_list>
+          </desc_content>
+        </desc>
+      </desc_content>
+    </desc>
+    <index entries="('single',\ u'func()\ (in\ module\ test)',\ u'test.func',\ '')"/>
+    <desc desctype="function" domain="py" noindex="False" objtype="function">
+      <desc_signature class="" first="False" fullname="func" ids="test.func" module="test" names="test.func">
+        <desc_addname>test.</desc_addname>
+        <desc_name>func</desc_name>
+        <desc_parameterlist>
+          <desc_parameter>foo</desc_parameter>
+          <desc_parameter>bar</desc_parameter>
+        </desc_parameterlist>
+      </desc_signature>
+      <desc_content>
+        <paragraph>Does a thing</paragraph>
+        <field_list>
+          <field>
+            <field_name>Parameters</field_name>
+            <field_body>
+              <bullet_list>
+                <list_item>
+                  <paragraph>
+                    <literal_strong refspecific="True">foo</literal_strong>
+                     (
+                    <pending_xref refdomain="py" refexplicit="False" refspecific="True" reftarget="str" reftype="obj">
+                      <literal_emphasis>str</literal_emphasis>
+                    </pending_xref>
+                    )
+                     --
+                    A foo
+                  </paragraph>
+                </list_item>
+                <list_item>
+                  <paragraph>
+                    <literal_strong refspecific="True">bar</literal_strong>
+                     (
+                    <pending_xref refdomain="py" refexplicit="False" refspecific="True" reftarget="int" reftype="obj">
+                      <literal_emphasis>int</literal_emphasis>
+                    </pending_xref>
+                    )
+                     --
+                    a bar
+                  </paragraph>
+                </list_item>
+              </bullet_list>
+            </field_body>
+          </field>
+          <field>
+            <field_name>Returns</field_name>
+            <field_body>
+              <paragraph>bool -- whether it worked</paragraph>
+            </field_body>
+          </field>
+          <field>
+            <field_name>Raises</field_name>
+            <field_body>
+              <paragraph>AttributeError</paragraph>
+            </field_body>
+          </field>
+        </field_list>
+      </desc_content>
+    </desc>
+  </section>
+</document>
