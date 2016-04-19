@@ -7,6 +7,8 @@ Welcome to testing domains's documentation!
 ===========================================
 
 
+.. testing::
+
 
 Contents:
 
