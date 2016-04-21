@@ -13,3 +13,9 @@ This repo contains some basic stuff to play around with Sphinx, e.g. directives,
 ## Custom domain progress
 
 - We can use Sphinx's standard domain nodes (`desc_name`, etc.) as long as we also have a custom translator class (implemented in `code/translator.py`)
+
+## Notes
+
+To quickly look at the contents of a doctree, run the following:
+
+    python -c 'import pickle; d=pickle.load(open('_build/doctrees/index.doctree')); print d.asdom().toprettyxml(indent='  ')
